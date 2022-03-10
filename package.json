@@ -1,0 +1,30 @@
+{
+  "name": "eidetic",
+  "version": "1.0.0",
+  "description": "A game to bend your mind",
+  "private": true,
+  "scripts": {
+    "test": "N/A",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorough-developer/eidetic.git"
+  },
+  "author": "Christopher Washington <c.arnez.washington@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorough-developer/eidetic/issues"
+  },
+  "homepage": "https://github.com/thorough-developer/eidetic#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
